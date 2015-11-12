@@ -86,7 +86,7 @@ def endState(state):
 # state -> event -> state
 #
 def handleEvent(state, event):  
-#    print("Handling event: " + str(event))
+#    print("Handling event: " + str(event)) .
     if (event.type == pg.MOUSEBUTTONDOWN):
         if (state[1]) == 1:
             newState = -1
